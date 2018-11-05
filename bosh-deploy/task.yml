@@ -10,9 +10,6 @@ image_resource:
 inputs:
 - name: bbl-state  # - The repo containing the Director's bbl state dir
 - name: cf-deployment  # - The cf-deployment manifest
-- name: ops-files  # - Operations files to be made available
-  path: cf-deployment/operations
-- name: vars-files  # - Variable files to be made available
 - name: cf-deployment-concourse-tasks  # - This repo
 
 run:
